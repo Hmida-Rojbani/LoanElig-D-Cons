@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" if-exists="true" version="2.1">
+      
+    <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.2.11 
+Voir <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2022.04.18 à 09:44:21 AM WAT 
+
+  -->
+      
+    <bindings xmlns:tns="http://www.tekup.de/loan/soap/ws/loanEligebilty" if-exists="true" scd="x-schema::tns">
+            
+        <schemaBindings map="false">
+                  
+            <package name="de.tekup.loan.soap.api.consume.loaneligibilty"/>
+                
+        </schemaBindings>
+            
+        <bindings if-exists="true" scd="tns:CustomerRequest">
+                  
+            <class ref="de.tekup.loan.soap.api.consume.loaneligibilty.CustomerRequest"/>
+                
+        </bindings>
+            
+        <bindings if-exists="true" scd="tns:WsResponse">
+                  
+            <class ref="de.tekup.loan.soap.api.consume.loaneligibilty.WsResponse"/>
+                
+        </bindings>
+          
+    </bindings>
+    
+</bindings>
